@@ -4,6 +4,8 @@ import {FaBars} from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {Nav,NavbarContainer,NavLogo ,MobileIcon,NavMenu,NavItem,NavLinks,NavBtn,NavBtnLink} from './NavbarElements';
 
+const logo = require("../../images/Logo.svg").default;
+
 const Navbar = ({toggle}) => {
 
     const [scrollNav,setScrollNav] = useState(true)
@@ -36,6 +38,7 @@ const Navbar = ({toggle}) => {
     <Nav scrollNav={scrollNav}>
         <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
+                <img src={logo} alt='logo' style={{"height":"50px","margin-right":"20px"}}></img>
                 Grammered
             </NavLogo>
             <MobileIcon onClick={toggle}>
