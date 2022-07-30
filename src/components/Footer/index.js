@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink } from './FooterElements'
+import { FooterContainer,FooterWrap,FooterLinksContainer,FooterLinksWrapper,FooterLinkItems,FooterLinkTitle,FooterLink} from './FooterElements'
 
 const Footer = () => {
   return (
@@ -13,7 +13,6 @@ const Footer = () => {
                             <FooterLink to="/signin">Testimonials</FooterLink>
                             <FooterLink to="/signin">Careers</FooterLink>
                             <FooterLink to="/signin">Terms of Services</FooterLink>
-                        
                     </FooterLinkItems>
                 </FooterLinksWrapper>
             </FooterLinksContainer>

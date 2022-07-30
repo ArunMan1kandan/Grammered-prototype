@@ -21,7 +21,7 @@ justify-content:center;
 
 @media screen and(max-width:820px)
 {
-    paddin-top:32px;
+    padding-top:32px;
 }
 `
 
