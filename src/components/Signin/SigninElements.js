@@ -87,7 +87,7 @@ padding:80px 32px;
 `
 
 export const FormH1 = styled.h1 `
-margin-bottom:40px;
+margin-bottom:25px;
 color:black;
 font-size:25px;
 font-weight:500;
@@ -102,7 +102,7 @@ color:#fff;
 
 export const FormInput = styled.input `
 padding:16px 16px;
-margin-bottom:25px;
+margin-bottom:20px;
 border:none;
 border-radius:30px;
 background:rgba(255,255,255,0.15);
@@ -132,13 +132,13 @@ color:white;
 font-size:18px;
 cursor:pointer;
 border-radius:30px;
-margin-top:10px;
+margin-top:5px;
 `
 
 export const Text = styled.span `
 text-align:center;
-margin-top:24px;
-color:white;
+margin-top:14px;
+color:black;
 font-size:14px;
 cursor:pointer;
 `
@@ -150,7 +150,7 @@ align-items:center;
 border-radius:20px;
 color:white;
 cursor:pointer;
-margin-top:50px;
+margin-top:20px;
 
 svg
 {
